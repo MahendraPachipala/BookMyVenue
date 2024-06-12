@@ -5,6 +5,7 @@ import UserLogin from "../pages/UserLogin";
 import Home from "../pages/home";
 import WeddingHome from "../pages/WeddingHome";
 import VenueRegister from "../pages/venueRegister";
+import E from "../pages/e"
 
 const Routers = () => {
     return (
@@ -16,6 +17,8 @@ const Routers = () => {
             <Route path = "/home" element = {<Home/>}/>
             <Route path = "/VenueRegister" element = {<VenueRegister/>}/>
             <Route path = "/WeddingHome" element = {<WeddingHome/>}/>
+
+            <Route path = "/e" element = {<E/>}/>
         </Routes>
         </div>
     );
